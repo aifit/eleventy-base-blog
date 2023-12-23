@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: About Me
-  order: 4
+  key: Portfolio
+  order: 2
 ---
-# About Me
+# Portfolio
 
 I am a person that writes stuff.
