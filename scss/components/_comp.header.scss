@@ -1,0 +1,14 @@
+.c-header {
+	display: flex;
+	align-items: center;
+	height: 56px;
+	background: black;
+
+	&__item {
+		width: 70%;
+
+		&:first-child {
+			width: 30%;
+		}
+	}
+}
