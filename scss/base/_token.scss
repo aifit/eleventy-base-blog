@@ -3,9 +3,10 @@ $color-white: #9e9e9e;
 $color-black: #252525;
 $color-primary: #c2fc65;
 $color-primary-hover: #f5ffe4;
+$color-border: #383838;
 
 // global
-$global-space: 2rem;
+$global-space: 1.5rem;
 $global-transition: all .2s ease;
 
 // fluid typography
@@ -13,6 +14,6 @@ $global-transition: all .2s ease;
 $min-width: 320px;
 $max-width: 1280px;
 $min-font: 16px;
-$max-font: 20px;
+$max-font: 18px;
 $mod-1: 1.2; // mobile
 $mod-2: 1.5; // desktop

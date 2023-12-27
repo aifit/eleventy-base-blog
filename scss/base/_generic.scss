@@ -26,6 +26,11 @@ body {
 	font-family: var(--font-family);
 	color: $color-white;
 	max-width: $max-width;
+
+	// sticky footer
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 h1 {
