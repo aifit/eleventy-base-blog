@@ -6,11 +6,7 @@
 	position: relative;
 
 	&__item {
-		width: 70%;
-
-		&:first-child {
-			width: 30%;
-		}
+		width: 50%;
 
 		&:last-child {
 			display: flex;
