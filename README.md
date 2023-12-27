@@ -1,5 +1,7 @@
 # eleventy-base-blog v8
 
+![FireShot Capture 023 - Eleventy Base Blog v8 - localhost](https://github.com/aifit/eleventy-base-blog/assets/31202570/41ede646-f507-4462-99dd-0cd585cea359)
+
 A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v2.0 release](https://www.11ty.dev/blog/eleventy-v2/)).
 
 ## Getting Started
@@ -93,7 +95,7 @@ Deploy this Eleventy site in just a few clicks on these services:
 - [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
 - If you run Eleventy locally you can drag your `_site` folder to [`drop.netlify.com`](https://drop.netlify.com/) to upload it without using `git`.
 - [Get your own Eleventy web site on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
-- [Try it out on Stackblitz](https://stackblitz.com/github/11ty/eleventy-base-blog)
+- [Try it out on Stackblitz](https://stackblitz.com/github/aifit/eleventy-base-blog)
 - Read more about [Deploying an Eleventy project](https://www.11ty.dev/docs/deployment/) to the web.
 
 ### Implementation Notes
