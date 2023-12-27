@@ -11,7 +11,7 @@
 	}
 	a {
 		display: block;
-		padding: 0 $global-space/4.5;
+		padding: 0 calc($global-space/4.5);
 		text-decoration: none;
 	}
 }
