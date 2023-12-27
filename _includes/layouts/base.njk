@@ -29,7 +29,6 @@
     {#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
   </head>
   <body>
-    <a href="#skip" class="visually-hidden">Skip to main content</a>
     <header class="c-header">
 			<div class="c-header__item">
 				<h1 class="c-logo">
@@ -45,14 +44,14 @@
 					<ul>
 						{%- for entry in collections.all | eleventyNavigation %}
 							<li>
-								<a href="{{ entry.url }}" {% if entry.url == page.url %} aria-current="page" {% endif %}>{{ entry.title }}</a>
+								<a href="{{ entry.url }}" {% if entry.url == page.url %} {% endif %}>{{ entry.title }}</a>
 							</li>
 						{%- endfor %}
 					</ul>
 				</nav>
 			</div>
     </header>
-    <main id="skip" class="c-body">
+    <main class="c-body">
       {{ content | safe }}
     </main>
     <footer></footer>
