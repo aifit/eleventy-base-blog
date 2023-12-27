@@ -3,12 +3,18 @@
 	align-items: center;
 	height: 56px;
 	background: black;
+	padding: 0 $global-space;
 
 	&__item {
 		width: 70%;
 
 		&:first-child {
 			width: 30%;
+		}
+
+		&:last-child {
+			display: flex;
+			justify-content: flex-end;
 		}
 	}
 }

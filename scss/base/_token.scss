@@ -1,2 +1,15 @@
+// color
 $color-white: #f1f1f1;
 $color-black: #252525;
+
+// space
+$global-space: 2rem;
+
+// fluid typography
+// https://css-tricks.com/snippets/css/fluid-typography/
+$min-width: 320px;
+$max-width: 1280px;
+$min-font: 16px;
+$max-font: 20px;
+$mod-1: 1.2; // mobile
+$mod-2: 1.5; // desktop

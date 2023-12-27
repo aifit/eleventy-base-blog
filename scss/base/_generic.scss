@@ -12,18 +12,33 @@
 
 html,
 body {
+	background-color: $color-black;
+}
+
+html {
+	overflow-y: scroll;
+	@include fluid-type($min-width, $max-width, $min-font, $max-font);
+}
+
+body {
 	padding: 0;
 	margin: 0 auto;
 	font-family: var(--font-family);
 	color: $color-white;
-	background-color: $color-black;
-}
-html {
-	overflow-y: scroll;
+	max-width: $max-width;
 }
 
-body {
-	max-width: 1200px;
+h1 {
+  font-size: $mod-1*$mod-1*$mod-1*$mod-1 *1rem;
+  @include fluid-type($min-width, $max-width, $mod-1*$mod-1*$mod-1 *$min-font, $mod-2*$mod-2*$mod-2 *$min-font);
+}
+h2 {
+  font-size: $mod-1*$mod-1*$mod-1 *1rem;
+  @include fluid-type($min-width, $max-width, $mod-1*$mod-1*$mod-1 *$min-font, $mod-2*$mod-2*$mod-2 *$min-font);
+}
+h3 {
+  font-size: $mod-1*$mod-1 *1rem;
+  @include fluid-type($min-width, $max-width, $mod-1*$mod-1 *$min-font, $mod-2*$mod-2 *$min-font);
 }
 
 p:last-child {margin-bottom: 0;}
