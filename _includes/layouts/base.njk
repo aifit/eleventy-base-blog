@@ -33,9 +33,9 @@
     <header class="c-header">
 			<div class="c-header__item">
 				<h1 class="c-logo">
-					<a href="/" class="c-logo__link">
+					<a href="/" class="c-logo__link" title="{{ metadata.title }}">
 						<div class="c-logo__text">
-							{{ metadata.title }}
+							Ar.
 						</div>
 					</a>
 				</h1>
@@ -52,7 +52,7 @@
 				</nav>
 			</div>
     </header>
-    <main id="skip">
+    <main id="skip" class="c-body">
       {{ content | safe }}
     </main>
     <footer></footer>

@@ -9,5 +9,11 @@
 	}
 	a {
 		display: block;
+		padding: 0 $global-space/4;
+		text-decoration: none;
+
+		&:hover {
+			color: $color-white;
+		}
 	}
 }

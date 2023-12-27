@@ -8,6 +8,7 @@
 /* Global stylesheet */
 * {
 	box-sizing: border-box;
+	transition: $global-transition;
 }
 
 html,
@@ -50,7 +51,7 @@ li {
 }
 
 a {
-	color: orange;
+	color: $color-primary;
 }
 
 table {
