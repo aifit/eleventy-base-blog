@@ -32,8 +32,13 @@
     <a href="#skip" class="visually-hidden">Skip to main content</a>
     <header class="c-header">
 			<div class="c-header__item">
-				<a href="/" class="home-link">{{ metadata.title }}</a>
-				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+				<h1 class="c-logo">
+					<a href="/" class="c-logo__link">
+						<div class="c-logo__text">
+							{{ metadata.title }}
+						</div>
+					</a>
+				</h1>
 			</div>
 			<div class="c-header__item">
 				<nav>

@@ -1,6 +1,8 @@
 // Base
-@import "components/base.token";
-@import "components/base.generic";
+@import "base/token";
+@import "base/generic";
+@import "base/prism-diff";
 
 // Components
-@import "components/comp.header";
+@import "component/header";
+@import "component/logo";
